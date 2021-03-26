@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+body{
+    background-color: rgb(101, 175, 180);
+}
+
+#header{
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    
+    padding: 15px;
+    background-color: rgb(101, 175, 180); 
+}
+.img {
+    clip-path: circle();
+
+}
+.intro-text{
+    display: grid;
+
+}
+.heading{
+    background-color: rgb(51, 107, 129);
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 7px 7px rgb(164, 187, 82);
+
+}
+.heading h2 ,p{
+    padding: 5px;
+    text-align: center;
+
+}
+.container{
+    background-color: black; 
+}
+.table{
+    
+    background-color: rgb(188, 207, 223);
+    display:flex;
+    justify-content: center;
+   
+    
+}
+.table th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(118, 146, 42);
+    color: seashell;
+
+    
+
+}
+.name{
+    padding: 30px;
+    
+}
+.sem{
+    padding: 30px;
+   
+}
+.pro{
+    padding: 30px;
+    
+}
+ @media(max-width: 998px){
+   html{
+       font-size: 55%;
+   }
+}
+@media(max-width: 768px){
+    html{
+        font-size: 45%;
+    }
+ }
